@@ -8,8 +8,10 @@ export const Content = styled.div`
 `;
 export const Options = styled.div`
   width: 20%;
+  min-width: 180px;
   @media (max-width: 800px) {
     width: 100%;
+
   }
 `;
 

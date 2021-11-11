@@ -1,3 +1,23 @@
 html{
   box-sizing: border-box;
 }
+
+body{
+  background: var(--background);
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  outline: 0;
+}
+
+:root{
+  --background: #121214;
+  --green: #04d361;
+  --primary: #8257e5;
+  --primary-hover: #9466ff;
+  --white: #fffffe;
+  --card-border: #29292e;
+  --purple-gradient-bar: linear-gradient(90deg, #8257e6, #8257e640);
+}
